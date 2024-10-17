@@ -43,7 +43,7 @@ public class Encryptor{
                 break;
             
             case 2: //Encryption section
-                System.out.println("You Have Selected The Option To Decrypt The File");
+                System.out.println("You Have Selected The Option To Encrypt The File");
                 fileName = scan.nextLine();
                 try {
                     // Generate a secret key for AES encryption
@@ -62,7 +62,7 @@ public class Encryptor{
                 catch (NoSuchAlgorithmException | InvalidKeyException | IOException e) {
                     e.printStackTrace();
                 }catch (Exception e) {
-                    System.out.println("There was an errors in the Reading a file");
+                    System.out.println("There was an errors in the Encrypting  a file");
                 }
                 break;
         
