@@ -1,0 +1,10 @@
+About
+You have been provided with an image dataset that includes images of corn, pepper, and tomato crops sourced from farms in Ghana.
+
+Data license: CC BY 4.0 ATTRIBUTION 4.0 INTERNATIONAL
+
+Each image in the training set is annotated with bounding boxes indicating the presence and type of diseases. The training set contains images where multiple diseases might be present, each annotated separately.
+
+The test set introduces images that may contain new diseases not present in the training set, and the bounding boxes are removed.
+
+You can download the full image dataset here.
